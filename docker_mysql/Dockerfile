@@ -2,7 +2,7 @@ FROM mysql:latest
 
 # Define environment variables
 ENV MYSQL_ROOT_PASSWORD eset_capstone_2019
-ENV MYSQL_DATABASE data
+ENV MYSQL_DATABASE TEST_STORAGE
 ENV MYSQL_USER helios
 
 # Seed the SQL tables 
